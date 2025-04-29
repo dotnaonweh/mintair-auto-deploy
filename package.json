@@ -1,0 +1,16 @@
+{
+  "name": "mintair-project",
+  "version": "1.0.0",
+  "description": "MegaEth timer contract deployment",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "web3": "^1.10.0",
+    "dotenv": "^16.0.3",
+    "axios": "^1.4.0",
+    "winston": "^3.8.2"
+  },
+  "type": "commonjs"
+}

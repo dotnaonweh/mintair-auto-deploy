@@ -1,0 +1,28 @@
+{
+  "SETTINGS": {
+    "THREADS": 1,
+    "ATTEMPTS": 3,
+    "ACCOUNTS_RANGE": [0, 1],
+    "EXACT_ACCOUNTS_TO_USE": [],
+    "PAUSE_BETWEEN_ATTEMPTS": [3, 10],
+    "PAUSE_BETWEEN_SWAPS": [5, 10],
+    "RANDOM_PAUSE_BETWEEN_ACCOUNTS": [10, 30],
+    "RANDOM_PAUSE_BETWEEN_ACTIONS": [5, 10],
+    "RANDOM_INITIALIZATION_PAUSE": [0, 5],
+    "TELEGRAM_USERS_IDS": [],
+    "TELEGRAM_BOT_TOKEN": "",
+    "SEND_TELEGRAM_LOGS": false,
+    "SHUFFLE_WALLETS": true,
+    "WAIT_FOR_TRANSACTION_CONFIRMATION_IN_SECONDS": 120
+  },
+  "FLOW": {
+    "SKIP_FAILED_TASKS": true
+  },
+  "RPCS": {
+    "MEGAETH": ["https://carrot.megaeth.com/rpc"]
+  },
+  "OTHERS": {
+    "SKIP_SSL_VERIFICATION": false,
+    "USE_PROXY_FOR_RPC": false
+  }
+}
